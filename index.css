@@ -150,7 +150,7 @@ header table {
     background:rgb(58, 38, 114);
     /* box-shadow:0px 10px 30px rgba(255, 66, 107,0.8); */
 }
-.btn_one {
+/* .btn_one {
     font-size:18px;
     font-family: 'Poppins', sans-serif;
     color:rgb(58, 38, 114);
@@ -168,11 +168,11 @@ header table {
     cursor:pointer;
     color:#fff;
     background:rgb(58, 38, 114);
-}
+} */
 #rightImage {
     width:90%;
     height:98vh;
-    background: url("images/pavel-sketch-02.png") center center;
+    background: url("images/pavel-sketch-01.png") center center;
     background-size:cover;
     background-repeat:no-repeat;
 }
@@ -188,24 +188,43 @@ header table {
     border-bottom:4px solid rgb(58, 38, 114);
     width:100%;
 }
+#design {
+    width:92vw;
+    padding:6vh 4vw;
+    text-align:center;
+    font-weight:bold;
+}
+#design h1 {
+    padding:5px 0px;
+    text-align:center;
+    border-bottom:4px solid rgb(58, 38, 114);
+    width:100%;
+}
 #photos {
     width:100%;
     columns:4;
     column-gap:4%;
     z-index:1;
     transition:0.4s ease-in-out;
+    border-bottom:0px;
 }
 #photos img {
     width:100%;
     height:auto;
-    margin:4.5% 0px;
+    margin:2% 0px;
     transition:0.4s ease-in-out;
 }
 #photos img:hover {
-    transform: scale(1.1);
+    transform: scale(1.03);
     cursor: pointer;
 }
-#bio {
+#photos h2 {
+    padding:0px 0px;
+    text-align:center;
+    font-size:15px;
+    width:100%;
+}
+/* #bio {
     width:92vw;
     padding:6vh 4vw;
     font-weight:bold;
@@ -214,7 +233,7 @@ header table {
     padding:5px 0px;
     border-bottom:4px solid rgb(58, 38, 114);
     width:8%;
-}
+} */
 #contact {
     width:92vw;
     padding:6vh 4vw;
