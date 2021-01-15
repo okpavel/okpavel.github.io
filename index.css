@@ -206,7 +206,7 @@ header table {
     column-gap:4%;
     z-index:1;
     transition:0.4s ease-in-out;
-    border-bottom:0px;
+    border-spacing:0px;
 }
 #photos img {
     width:100%;
@@ -219,7 +219,7 @@ header table {
     cursor: pointer;
 }
 #photos h2 {
-    padding:0px 0px;
+    margin:0px 0px 6px;
     text-align:center;
     font-size:15px;
     width:100%;
