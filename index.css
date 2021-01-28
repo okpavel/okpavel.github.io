@@ -171,10 +171,22 @@ header table {
 } */
 #rightImage {
     width:90%;
-    height:98vh;
-    background: url("images/pavel-sketch-01.png") center center;
+    height:80vh;
+    background: url("images/pavel-sketch-01-01.png") center center;
     background-size:cover;
     background-repeat:no-repeat;
+}
+#label {
+    width:92vw;
+    padding:6vh 4vw;
+    text-align:center;
+    font-weight:bold;
+}
+#label h1{
+    padding:5px 0px;
+    text-align:left;
+    border-bottom:4px solid rgb(58, 38, 114);
+    width:100%;
 }
 #art {
     width:92vw;
@@ -200,19 +212,54 @@ header table {
     border-bottom:4px solid rgb(58, 38, 114);
     width:100%;
 }
-#photos {
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(58, 38, 114);
+    font-size:30px;
+  }
+.container:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+#links {
     width:100%;
     columns:4;
-    column-gap:4%;
+    column-gap:2%;
     z-index:1;
     transition:0.4s ease-in-out;
+    border-spacing:0px;
+}
+#links img {
+    width:100%;
+    height:auto;
+    margin:0px;
+    border:0px;
+    transition:0.4s ease-in-out;
+}
+/* #links img:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+} */
+#photos {
+    width:100%;
+    columns:3;
+    column-gap:4%;
+    z-index:1;
+    /* transition:0.4s ease-in-out; */
     border-spacing:0px;
 }
 #photos img {
     width:100%;
     height:auto;
     margin:2% 0px;
-    transition:0.4s ease-in-out;
+    /* transition:0.4s ease-in-out; */
 }
 #photos img:hover {
     transform: scale(1.03);

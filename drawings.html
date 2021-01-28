@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>drawings | pavel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="images/pavel-sketch-04.png">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="magnify">
+        <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+        <div id="img_here"></div>
+    </div>
+    <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+        <table>
+            <tr>
+                <td id="logo"><a style="text-decoration: none" href="index.html">pavel pivarshev</a></td>
+                <td id="navigation">
+                    <a href="okpavel.github.io#art">art</a>
+                    <a href="okpavel.github.io#design">design</a>
+                    <a href="resume/pavel_resume.pdf" target="_blank">resume</a>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <div id="label">
+        <h1><br/>
+            drawings</h1>
+        <div id="photos">
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/drw/2_minneapolis.jpg">
+            <h2><i>minneapolis police precinct</i>. jun 2020. marker on paper. 12"x16".</h2> 
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/drw/1_anxiety.jpg">
+            <h2><i>anxiety</i>. may 2020. pastel on paper. 12"x16".</h2>          
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/drw/5_streets.jpg">
+            <h2><i>inktober 25</i>. oct 2019. pen on paper.</h2>     
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/drw/6_desk.jpg">
+            <h2><i>inktober 11</i>. oct 2019. pen on paper.</h2>
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/drw/4_ruby.jpg">
+            <h2><i>inktober 5.</i> oct 2019. pen on paper.</h2> 
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/drw/7_soitgoes.jpg">
+            <h2><i>so it goes</i>. oct 2018. pen on paper. 8.5"x11".</h2> 
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/drw/3_crane.jpg">
+            <h2><i>doodle crane</i>. sep 2018. dry-erase marker on paper. 40"x40".</h2> 
+    </body>
+    <script src="index.js" type="text/javascript"></script>
+</html>

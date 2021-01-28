@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>paintings | pavel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="images/pavel-sketch-04.png">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="magnify">
+        <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+        <div id="img_here"></div>
+    </div>
+    <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+        <table>
+            <tr>
+                <td id="logo"><a style="text-decoration: none" href="index.html">pavel pivarshev</a></td>
+                <td id="navigation">
+                    <a href="okpavel.github.io#art">art</a>
+                    <a href="okpavel.github.io#design">design</a>
+                    <a href="resume/pavel_resume.pdf" target="_blank">resume</a>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <div id="label">
+        <h1><br/>
+            paintings</h1>
+        <div id="photos">
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/ptg/1_cj.jpg">
+            <h2><i>cj</i>. jan 2021. oil on canvas. 15"x30".</h2>
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/ptg/3_dionysus.jpg">
+            <h2><i>dionysus</i>. jan 2021. oil on canvas. 18"x24".</h2>
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/ptg/2_self.jpg">
+            <h2><i>self</i>. dec 2020. oil on canvas. 15"x30".</h2>
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/ptg/10_self.jpg">
+            <h2><i>judgment</i>. nov 2020. oil on paper. 35"x85".</h2>
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/ptg/12_sarah.jpg">
+            <h2><i>sarah</i>. nov 2020. acrylic on canvas. 24"x36".</h2>
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/ptg/13_shailen.jpg">
+            <h2><i>shailen</i>. nov 2020. acrylic on canvas. 24"x30".</h2>
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/ptg/14_bella.jpg">
+            <h2><i>bella</i>. nov 2020. acrylic on canvas. 30"x40".</h2>
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/ptg/15_multy.jpg">
+            <h2><i>multy</i>. nov 2020. acrylic on canvas. 24"x36".</h2>
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/ptg/16_mihir.jpg">
+            <h2><i>mihir</i>. jul 2020. acrylic on canvas. 18"x24".</h2>
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/ptg/6_david.jpg">
+            <h2><i>david</i>. mar 2020. oil on canvas. 30"x40".</h2>    
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/ptg/7_self.jpg">
+            <h2><i>self</i>. feb 2020. oil & mixed media on canvas. 18"x24".</h2>    
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/ptg/18_autumn.jpg">
+            <h2><i>autumn</i> (model series) (unfinished). feb 2020. acrylic on canvas. 15"x30".</h2> 
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/ptg/8_hammer.jpg">
+            <h2><i>still life with hammer</i>. jan 2020. oil on canvas. 18"x24".</h2>          
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/ptg/9_beach.jpg">
+            <h2><i>beach</i>. dec 2019. acrylic on canvas. 24"x36".</h2>     
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/ptg/11_self.jpg">
+            <h2><i>self</i>. oct 2019. acrylic on canvas. 15"x30".</h2>
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/ptg/17_spring.jpg">
+            <h2><i>spring</i> (model series). aug 2019. acrylic on canvas. 15"x30".</h2> 
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/ptg/4_winter.jpg">
+            <h2><i>winter</i> (model series). jul 2019. acrylic on canvas. 15"x30".</h2> 
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/ptg/5_summer.jpg">
+            <h2><i>summer</i> (model series). feb 2019. acrylic on canvas. 15"x30".</h2> 
+    </body>
+    <script src="index.js" type="text/javascript"></script>
+</html>

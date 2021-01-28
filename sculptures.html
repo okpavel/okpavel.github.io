@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>sculptures | pavel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="images/pavel-sketch-04.png">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="magnify">
+        <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+        <div id="img_here"></div>
+    </div>
+    <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+        <table>
+            <tr>
+                <td id="logo"><a style="text-decoration: none" href="index.html">pavel pivarshev</a></td>
+                <td id="navigation">
+                    <a href="okpavel.github.ioindex.html">art</a>
+                    <a href="okpavel.github.io#design">design</a>
+                    <a href="resume/pavel_resume.pdf" target="_blank">resume</a>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <div id="label">
+        <h1><br/>
+            sculpture</h1>
+        <div id="photos">
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/scu/3_jacket.jpg">
+            <h2><i>prom jacket</i>. jul 2020. builder's paper & duct tape. fits me well.</h2> 
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/scu/2_asc_1.jpg">
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/scu/2_asc_2.jpg">
+            <h2><i>ascension</i>. dec 2019. wood & found materials. 12"x10"x16".</h2> 
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/scu/1_ina_1.jpg">
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/scu/1_ina_2.jpg">
+            <h2><i>inauguration</i>. oct 2019. found materials. 16"x16"x50".</h2> 
+    </body>
+    <script src="index.js" type="text/javascript"></script>
+</html>

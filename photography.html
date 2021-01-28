@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>photography | pavel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="images/pavel-sketch-04.png">
+</head>
+<body>
+    <div id="loading">
+        <div id="spinner"></div>
+    </div>
+    <div id="magnify">
+        <h1 onclick="closemagnify()"><i class="fas fa-times"></i></h1>
+        <div id="img_here"></div>
+    </div>
+    <header id="header" class="animated slideInDown" style="animation-delay:1.8s;">
+        <table>
+            <tr>
+                <td id="logo"><a style="text-decoration: none" href="index.html">pavel pivarshev</a></td>
+                <td id="navigation">
+                    <a href="okpavel.github.io#art">art</a>
+                    <a href="okpavel.github.io#design">design</a>
+                    <a href="resume/pavel_resume.pdf" target="_blank">resume</a>
+                </td>
+            </tr>
+        </table>
+    </header>
+    <div id="label">
+        <h1><br/>
+            photography</h1>
+        <div id="photos">
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/pho/img_1.jpg">
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/pho/img_2.jpg">
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/pho/img_3.jpg">
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/pho/img_4.jpg">
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/pho/img_5.jpg">
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/pho/img_6.jpg">
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/pho/img_7.jpg">
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/pho/img_8.jpg">
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/pho/img_9.jpg">
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/pho/img_10.jpg">
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/pho/img_11.jpg">
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/pho/img_12.jpg">
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/pho/img_13.jpg">
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/pho/img_14.jpg">
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/pho/img_15.jpg">
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/pho/img_16.jpg">
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/pho/img_17.jpg">
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/pho/img_18.jpg">
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/pho/img_19.jpg">
+            <img onclick="magnify($(this).attr('src'))" src="images/portfolio/pho/img_20.jpg">
+            <h2><i>feeling</i>. dec 2020. digital photo. <a href="https://docs.google.com/presentation/d/14JSnF-iS0Z1c30WeenBWOmXsNZTwRnAHAV-XcUiUJdA/edit?usp=sharing" target="_blank">link to full project</a>!</h2> 
+    </body>
+    <script src="index.js" type="text/javascript"></script>
+</html>
