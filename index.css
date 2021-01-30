@@ -23,7 +23,7 @@ body {
     animation: rotate 0.56s infinite linear;
     width:50px;
     height:50px;
-    border:12px solid rgb(58, 38, 114);
+    border:12px solid rgb(35, 8, 97);
     border-bottom:12px solid #fff;
     border-radius:50%;
     margin:0;
@@ -38,10 +38,10 @@ header {
     position:fixed;
     font-weight:bold;
     background:transparent;
-    color:rgb(58, 38, 114);
+    color:rgb(35, 8, 97);
     /* transition:0.4s ease-in; */
     z-index:2;
-    /* border:2vh solid rgb(58, 38, 114); */
+    /* border:2vh solid rgb(35, 8, 97); */
 }
 header table {
     width:36%;
@@ -73,7 +73,7 @@ header table {
     transition:0.4s ease-in-out;
 }
 #magnify h1:hover{
-    color:rgb(58, 38, 114);
+    color:rgb(35, 8, 97);
     cursor:pointer;
 }
 #img_here {
@@ -85,13 +85,13 @@ header table {
 }
 #logo {
     font-size:24px;
-    color:rgb(58, 38, 114);
+    color:rgb(35, 8, 97);
 }
 #navigation {
     text-align:right;
 }
 #navigation a {
-    color:rgb(58, 38, 114);
+    color:rgb(35, 8, 97);
     text-decoration:none;
     padding:3px;
     border-bottom:2px solid transparent;
@@ -99,12 +99,12 @@ header table {
     transition:0.4s ease-in-out;
 }
 #navigation a:hover{
-    border-bottom:2px solid rgb(58, 38, 114);
+    border-bottom:2px solid rgb(35, 8, 97);
 }
 #top_part {
     width:100%;
     /* background:rgba(151, 28, 28, 0.664); */
-    /* border:2vh solid rgb(58, 38, 114); */
+    /* border:2vh solid rgb(35, 8, 97); */
 }
 #top_part tr td{
     width:63%;
@@ -135,7 +135,7 @@ header table {
     text-align:right;
 }
 .social {
-    color:rgb(58, 38, 114);
+    color:rgb(35, 8, 97);
     font-size:23px;
     padding:8px 12px;
     border-radius:10%;
@@ -147,15 +147,15 @@ header table {
 .social:hover { 
     cursor: pointer;
     color:#fff;
-    background:rgb(58, 38, 114);
+    background:rgb(35, 8, 97);
     /* box-shadow:0px 10px 30px rgba(255, 66, 107,0.8); */
 }
 /* .btn_one {
     font-size:18px;
     font-family: 'Poppins', sans-serif;
-    color:rgb(58, 38, 114);
+    color:rgb(35, 8, 97);
     background:#fff;
-    border:3px solid rgb(58, 38, 114);
+    border:3px solid rgb(35, 8, 97);
     padding:8px 40px;
     width:35%;
     border-radius:80px;
@@ -167,7 +167,7 @@ header table {
     box-shadow:0px 10px 30px rgba(80, 43, 121);
     cursor:pointer;
     color:#fff;
-    background:rgb(58, 38, 114);
+    background:rgb(35, 8, 97);
 } */
 #rightImage {
     width:90%;
@@ -185,7 +185,7 @@ header table {
 #label h1{
     padding:5px 0px;
     text-align:left;
-    border-bottom:4px solid rgb(58, 38, 114);
+    border-bottom:4px solid rgb(35, 8, 97);
     width:100%;
 }
 #art {
@@ -197,7 +197,7 @@ header table {
 #art h1 {
     padding:5px 0px;
     text-align:center;
-    border-bottom:4px solid rgb(58, 38, 114);
+    border-bottom:4px solid rgb(35, 8, 97);
     width:100%;
 }
 #design {
@@ -209,13 +209,13 @@ header table {
 #design h1 {
     padding:5px 0px;
     text-align:center;
-    border-bottom:4px solid rgb(58, 38, 114);
+    border-bottom:4px solid rgb(35, 8, 97);
     width:100%;
 }
 .container {
     position: relative;
     text-align: center;
-    color: rgb(58, 38, 114);
+    color: rgb(35, 8, 97);
     font-size:30px;
   }
 .container:hover {
@@ -248,9 +248,12 @@ header table {
     cursor: pointer;
 } */
 #photos {
-    width:100%;
-    columns:3;
-    column-gap:4%;
+    width:30%;
+    columns:1;
+    align-items:center;
+    margin-left:auto;
+    margin-right:auto;
+    /* column-gap:4%; */
     z-index:1;
     /* transition:0.4s ease-in-out; */
     border-spacing:0px;
@@ -278,7 +281,7 @@ header table {
 }
 #bio h1 {
     padding:5px 0px;
-    border-bottom:4px solid rgb(58, 38, 114);
+    border-bottom:4px solid rgb(35, 8, 97);
     width:8%;
 } */
 #contact {
@@ -287,7 +290,7 @@ header table {
 }
 #contact h1 {
     padding:5px 0px;
-    border-bottom:4px solid rgb(58, 38, 114);
+    border-bottom:4px solid rgb(35, 8, 97);
     width:10%;
 }
 #contact table {
@@ -356,7 +359,7 @@ header table {
     font-weight:bold;
 }
 #footer a {
-    color:rgb(58, 38, 114);
+    color:rgb(35, 8, 97);
     text-decoration:none;
 }
 ::placeholder {
@@ -420,7 +423,7 @@ button:focus {
     width:60%;
     margin:4vh auto;
     box-shadow:0px 10px 20px rgba(80, 43, 121);
-    background:rgb(58, 38, 114);
+    background:rgb(35, 8, 97);
     color:#fff;
     }
     .btn_one:hover {
