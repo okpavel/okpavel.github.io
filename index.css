@@ -107,7 +107,7 @@ header table {
     /* border:2vh solid rgb(35, 8, 97); */
 }
 #top_part tr td{
-    width:63%;
+    width:67%;
     /* background:rgba(238, 3, 3, 0.664); */
 }
 #about {
@@ -170,8 +170,9 @@ header table {
     background:rgb(35, 8, 97);
 } */
 #rightImage {
-    width:90%;
-    height:80vh;
+    width:100%;
+    margin-left: auto;
+    height:100%;
     background: url("images/pavel-sketch-01-01.png") center center;
     background-size:cover;
     background-repeat:no-repeat;
